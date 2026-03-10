@@ -7,6 +7,7 @@
 
     <title>Escenarios 3D con Three.js</title>
 
+
     <!-- Bootstrap 5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Icons -->
@@ -19,11 +20,10 @@
 <body>
 
     <!-- NAVBAR -->
-
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
 
-            <a class="navbar-brand fw-bold" href="#">
+            <a class="navbar-brand fw-bold" href="index.html">
                 <i class="bi bi-box"></i> Escenarios 3D
             </a>
 
@@ -32,164 +32,121 @@
             </button>
 
             <div class="collapse navbar-collapse" id="menu">
-
                 <ul class="navbar-nav ms-auto">
-
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Inicio</a>
+                        <a class="nav-link" href="index.html">Inicio</a>
                     </li>
-
                     <li class="nav-item">
                         <a class="nav-link" href="#ejemplos">Ejemplos</a>
                     </li>
-
                     <li class="nav-item">
-                        <a class="nav-link" href="#footer">Programador</a>
+                        <a class="nav-link" href="#footer">Contacto</a>
                     </li>
-
                 </ul>
-
             </div>
         </div>
     </nav>
 
+
     <!-- HERO -->
-
     <section class="hero container">
-
         <h1>Manipulación de Escenarios 3D</h1>
         <p class="lead">
             Ejemplos interactivos desarrollados con Three.js
         </p>
-
     </section>
 
+
     <!-- EJEMPLOS -->
-
     <section id="ejemplos" class="container pb-5">
-
         <div class="row g-4">
-
             <!-- EJEMPLO 1 -->
-
             <div class="col-md-6 col-lg-3">
-
                 <div class="card card-ui p-4 text-center h-100">
-
-
                     <img src="assets/img/cubo.png" class="icon-3d-img">
-                    <h5>Cubo 3D</h5>
-
+                    <h5>geometry / minecraft</h5>
                     <p>
-                        Escena básica con rotación de un cubo utilizando Three.js
+                        Genera un mundo tipo Minecraft con bloques 3D y texturas.
                     </p>
-
-                    <a href="webgl_geometry_minecraft.html" class="btn btn-info">
-                        Ver ejemplo
+                    <a href="webgl_geometry_minecraft.html">
+                        <button class="botonesMenu">
+                            Ver ejemplo
+                        </button>
                     </a>
-
                 </div>
-
             </div>
 
             <!-- EJEMPLO 2 -->
-
             <div class="col-md-6 col-lg-3">
-
                 <div class="card card-ui p-4 text-center h-100">
-
                     <img src="assets/img/edificio.png" class="icon-3d-img">
-
-                    <h5>Movimiento de cámara</h5>
-
+                    <h5>controls / map</h5>
                     <p>
-                        Control de cámara con OrbitControls para explorar el escenario.
+                        Permite mover la cámara como en un mapa: desplazamiento, zoom y rotación.
                     </p>
-
-                    <a href="misc_controls_map.html" class="btn btn-info">
-                        Ver ejemplo
+                    <a href="misc_controls_map.html">
+                        <button class="botonesMenu">
+                            Ver ejemplo
+                        </button>
                     </a>
-
                 </div>
-
             </div>
 
             <!-- EJEMPLO 3 -->
-
             <div class="col-md-6 col-lg-3">
-
                 <div class="card card-ui p-4 text-center h-100">
-
                     <img src="assets/img/orbita.png" class="icon-3d-img">
-
-                    <h5>Iluminación 3D</h5>
-
+                    <h5>controls / orbit</h5>
                     <p>
-                        Uso de luces y sombras para mejorar el realismo de la escena.
+                        La cámara puede orbitar alrededor del objeto con el mouse.
                     </p>
-
-                    <a href="misc_controls_orbit.html" class="btn btn-info">
-                        Ver ejemplo
+                    <a href="misc_controls_orbit.html">
+                        <button class="botonesMenu">
+                            Ver ejemplo
+                        </button>
                     </a>
-
                 </div>
-
             </div>
 
             <!-- EJEMPLO 4 -->
-
             <div class="col-md-6 col-lg-3">
-
                 <div class="card card-ui p-4 text-center h-100">
-
                     <img src="assets/img/parkour.png" class="icon-3d-img">
-
-                    <h5>Modelo 3D animado</h5>
-
+                    <h5>controls / pointerlock</h5>
                     <p>
-                        Carga de modelos externos y animaciones en Three.js.
+                        Minijuego de parkour en primera persona usando el mouse y teclado.
                     </p>
-
-                    <a href="misc_controls_pointerlock.html" class="btn btn-info">
-                        Ver ejemplo
+                    <a href="misc_controls_pointerlock.html">
+                        <button class="botonesMenu">
+                            Ver ejemplo
+                        </button>
                     </a>
-
                 </div>
-
             </div>
-
         </div>
-
     </section>
 
+
     <!-- FOOTER -->
-
     <footer id="footer">
-
         <div class="container">
-
             <p class="mb-1">
-                Proyecto: Manipulación de Escenarios 3D
+                Manipulación de Escenarios 3D
             </p>
-
             <p class="mb-1">
-                Programador: Juan Fer
+                Programador: Juan Fernando Ortega Olvera
             </p>
-
             <p class="mb-1">
-                Tecnologías: Bootstrap 5 + Three.js
+                Instituto Tecnológico de Pachuca
             </p>
-
             <p class="mb-0">
-                2026
+                © 2026 - Desarrollo de Soluciones en Ambientes Virtuales
             </p>
-
         </div>
-
     </footer>
 
-    <!-- Bootstrap JS -->
 
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>

@@ -28,12 +28,12 @@ body {
     color: #00d4ff;
 }
 
-.icon-3d-img{
-width:60px;
-height:60px;
-display:block;
-margin:0 auto 15px auto;
-object-fit:contain;
+.icon-3d-img {
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: 0 auto 15px auto;
+    object-fit: contain;
 }
 
 /* navbar */
@@ -58,4 +58,29 @@ footer {
 
 .hero h1 {
     font-weight: 700;
+}
+
+
+/* From Uiverse.io by TCdesign-dev */
+.botonesMenu {
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    border-radius: 9px;
+    background: #00d4ff;
+    border: none;
+    font-family: inherit;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.botonesMenu:hover {
+    box-shadow: 7px 5px 56px -14px #07c9ef;
+}
+
+.botonesMenu:active {
+    transform: scale(0.97);
+    box-shadow: 7px 5px 56px -10px #13abc9;
 }

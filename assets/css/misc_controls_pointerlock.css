@@ -1,3 +1,15 @@
+body {
+    background-color: #ccc;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* navbar */
+.navbar {
+    background: rgb(0, 0, 0);
+    backdrop-filter: blur(10px);
+}
+
 #blocker {
     position: absolute;
     width: 100%;

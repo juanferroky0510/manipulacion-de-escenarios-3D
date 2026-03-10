@@ -1,8 +1,15 @@
 body {
     background-color: #ccc;
-    color: #000;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
 }
 
 a {
     color: #f00;
+}
+
+/* navbar */
+.navbar {
+    background: rgb(0, 0, 0);
+    backdrop-filter: blur(10px);
 }
